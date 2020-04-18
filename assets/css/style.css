@@ -1,0 +1,15 @@
+.masterhead {
+    margin-left: 475px;
+    margin-bottom: .5rem
+
+}
+.container {
+    max-width: 960px;
+}
+.rounded {
+    width: 280px;
+    height: 280px;
+}
+p {
+    margin-bottom: 1rem
+}
