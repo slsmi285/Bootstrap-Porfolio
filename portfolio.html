@@ -10,99 +10,98 @@
 
 
 <body>
-
-  <body>
-    <!--Container, followed by 4-5 rows for portfolio.html-->
-    <div class="container">
-      <div id="top-fluid">
-        <div class="row">
-          <div class="col-md-4">
-            <div id="logo">
-              <h1 class="font-weight-bold p-3 mb2 bg-info text-white">Sandy Smith</h1>
-            </div>
-          </div>
-          <div class="col-md-8">
-            <div id="nav">
-              <ul class="nav justify-content-end p-3 mb-2 bg-light text-dark" width="960">
-                <li class="nav-item ">
-                  <a class="nav-link active" href="index.html">About |</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio |</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+   <!-- Sticky header-->
+  <nav class="navbar sticky-top navbar-light bg-light">
+    <div class="col-md-4">
+      <div id="logo">
+        <h1 class="font-weight-bold p-3 mb2 bg-info float-right text-white">Sandy Smith</h1>
       </div>
-      <!--row 1-->
-      <div class="row">
-        <div class="col-md-12">
-        </div>
-        <!--row 1-->
-        <div class="row">
-          <div class="col-md-12">
-            <h2>About Me</h2> 
-          </div>
-        </div>
-      </div>
-      <!--row 2-->
-      <div class="row">
-        <div class="col-md-4">
-          <img src="assets/images/technics-q-c-640-480-1.jpg" class="rounded float-left img-thumbnail" alt="Word Guess" width="200" height="200">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/technics-q-c-640-480-2.jpg" class="rounded float-left img-thumbnail" alt="RPG Game" width="200" height="200">
-        </div>
-        <div class="col-md-4">
-        </div>
-      </div>
-      <br>
-      <!--row 3-->
-      <div class="row">
-        <div class="col-md-4">
-          <img src="assets/images/technics-q-c-640-480-5.jpg" class="rounded float-left img-thumbnail" alt="Trivia Game" width="200" height="200">
-        </div>
-        <div class="col-md-4">
-          <img src="assets/images/technics-q-c-640-480-7.jpg" class="rounded float-left img-thumbnail" alt="Rutgers Info Widget" width="200" height="200">
-        </div>
-        <div class="col-md-4"></div>
-      </div>
-      <br>
-      <!--row 4-->
-      <div class="row">
-        <div class="col-md-4">
-          <img src="assets/images/technics-q-c-640-480-9.jpg" class="rounded float-left img-thumbnail" alt="Rock Paper Scissors" width="200" height="200">
-        </div>
-        <div class="col-md-4"></div>
-        <div class="col-md-4"></div>
-      </div>
-
-      <!--row 5-->
-      <div class="row">
-
-      </div>
-
     </div>
-    <!-- this is outside the container -- add footer-->
+    <div class="col-md-8">
+      <div id="nav">
+        <ul class="nav justify-content-end p-3 mb-2 bg-light text-dark">
+          <li class="nav-item ">
+            <a class="nav-link active" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">| Portfolio |</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <!--Grid row-->
     <div class="row">
       <div class="col-md-12">
-        <footer id="foot">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">
-                    Copyright &copy;
-                </h5>
-              </div>
-            </div>
-        </footer>
       </div>
+    </div>
+
+    <!--Grid row 1-->
+    <div class="row">
+      <div class="col-md-12">
+        <h2>Portolio<span class="badge badge-secondary"></span></h2>
+      </div>
+    </div>
+    <!-- Grid row 2-->
+    <div class="row">
+      <div class="col-md-4">
+        <img class="work" src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
+        <h3>Word Guess</h3>
+      </div>
+      <div class="col-md-4">
+        <img class="work" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+        <h3>RPG Game</h3>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+
+    <!--Grid row 3-->
+    <div class="row">
+      <div class="col-md-4">
+        <img class="work" src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="col-md-4">
+        <img class="work" src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+    <!--Grid row 4-->
+    <div class="row">
+      <div class="col-md-4">
+        <img class="work" src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+      </div>
+      <div class="col-md-4"></div>
+      <div class="col-md-4"></div>
+    </div>
+
+
+
   </div>
-</div>
- 
-  </body>
+  <!-- Sticky footer-->
+  <div class="row">
+    <div class="col-md-12">
+      <footer id="foot">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">
+              Copyright &copy;
+            </h5>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+</body>
 
 </html>
